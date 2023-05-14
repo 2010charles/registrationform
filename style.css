@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(50deg,green,yellow,red);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+table{
+    width: 70%;
+    margin: 40px auto;
+    margin-top: 50px;
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid wheat;
+    text-align: left;
+    padding: 10px 15px;
+}
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(176, 146, 146);
+}
+input[type="text"],input[type ="number"]{
+    width: 91%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid greenyellow;
+    border-radius: 4px;
+}
+input[type="submit"],input[type = "reset"]{
+    background: #fee;
+    padding: 6px  12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+input[type = "submit"]:hover{
+    background: rgb(62, 25, 185);
+}
+input[type = "reset"]:hover{
+    background: rgb(52, 52, 163);
+}
+button{
+    background: #fee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background:rgb(37, 37, 131) ;
+}
